@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from cramerGan.Models import DCGAN_D as Encoder 
-from cramerGan.Models import DCGAN_G as Decoder
-from cramerGan.Models import mmdNetG, mmdNetD
+from Gans.Models import DCGAN_D as Encoder 
+from Gans.Models import DCGAN_G as Decoder
+from Gans.Models import mmdNetG, mmdNetD
 
-from cramerGan.mmdGan import train_gans
+from Gans.mmdGan import train_gans
 import numpy as np
 import argparse, os
 import torch, h5py

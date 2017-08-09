@@ -10,7 +10,7 @@
 
 ## Parameters
 
-from cramerGan.utils import plot_img, plot_scalar, save_images, to_device
+from Gans.utils import plot_img, plot_scalar, save_images, to_device
 import os
 import argparse
 parser = argparse.ArgumentParser()
@@ -236,7 +236,7 @@ def weights_init(m):
         # Estimated mean, must be around 0
         m.bias.data.fill_(0)
 
-from cramerGan.gpGan import train_gans
+from Gans.gpGan import train_gans
 import numpy as np
 import argparse, os
 import torch, h5py

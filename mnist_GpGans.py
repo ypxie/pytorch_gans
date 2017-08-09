@@ -1,7 +1,7 @@
-from cramerGan.Models import MLP_D as Disc
-from cramerGan.Models import MLP_G as Gen
+from Gans.Models import MLP_D as Disc
+from Gans.Models import MLP_G as Gen
 
-from cramerGan.gpGan import train_gans
+from Gans.gpGan import train_gans
 from data import mnist
 import numpy as np
 import argparse

@@ -10,9 +10,9 @@
 
 ## Parameters
 
-from cramerGan.utils import plot_img, plot_scalar, save_images, to_device
-from cramerGan.Models import DCGAN_D as Disc
-from cramerGan.Models import DCGAN_G as Gen
+from Gans.utils import plot_img, plot_scalar, save_images, to_device
+from Gans.Models import DCGAN_D as Disc
+from Gans.Models import DCGAN_G as Gen
 
 import os
 import argparse

@@ -1,7 +1,7 @@
-from cramerGan.Models import DCGAN_D as Disc
-from cramerGan.Models import DCGAN_G as Gen
+from Gans.Models import DCGAN_D as Disc
+from Gans.Models import DCGAN_G as Gen
 
-from cramerGan.gpGan import train_gans
+from Gans.gpGan import train_gans
 import numpy as np
 import argparse, os
 import torch, h5py

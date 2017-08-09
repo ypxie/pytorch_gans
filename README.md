@@ -17,11 +17,6 @@ The following repositories are of great help.
  2. wgan-gp  https://github.com/caogang/wgan-gp
  3. mmd-gan  https://github.com/OctoberChang/MMD-GAN
 
-## Lessions learned
-1. Normalization is important in Discriminator
-2. Order matters. LayerNormalization-Conv-Activation. But for BatchNorm, Conv-BN-Activation.
-
-3. Weight clipping is not necessary in MMD.
 
 ## Author
 Yuanpu Xie
